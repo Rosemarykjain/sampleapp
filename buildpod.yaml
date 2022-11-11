@@ -5,7 +5,5 @@ spec:
     - name: maven
       image: maven:3.6.3-jdk-8
       imagePullPolicy: Always # use cache or pull image for agent
-      resources:  # limits the resources your build contaienr
-    - name: docker
-      image: docker:18.06.1
-      imagePullPolicy: Always
+    
+   
